@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(252, 238, 241);
-    width: 1500px;
+    width: 1390px;
     height: 600px;
     align-items: center;
 
@@ -63,4 +63,84 @@
 
 
 }
-   
+
+/* this is Featured section */
+
+.featured-container{
+    margin-top: 70px;
+    height: 100vh;
+    
+}
+
+.featured{
+    text-align: center;
+}
+   .fhead{
+    margin-bottom: 10px;
+    font-size: 40px;
+
+   }
+   .fdecription{
+    font-size: 18px;
+    
+   }
+   .fic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 400px;
+
+
+   }
+   .fic1{
+    height: 350px;
+    width: 300px;
+    background-color: #F2DEE7;
+    padding: 80px;
+    align-items: center;
+    border-radius: 50% 50% 0px 0px ;
+    padding-left: 20px;
+    margin-left: 20px;
+    
+   }
+   .fic2{
+    height: 350px;
+    width: 300px;
+    background-color:#D9EFF1;
+    padding: 80px;
+    align-items: center;
+    border-radius: 50% 50% 0px 0px ;
+    padding-left: 20px;
+    
+   }
+   .fic3{
+    height: 350px;
+    width: 300px;
+    background-color:#E3EBDB;
+    padding: 80px;
+    align-items: center;
+    border-radius: 50% 50% 0px 0px ;
+    padding-left: 20px;
+    
+    
+   }
+   .fic3image{
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+  
+   }
+   .ficname{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 130px;
+   }
+   .ficnamep1{
+    margin-left: 90px;
+   }
+   .ficnamep2{
+    margin-left: 360px;
+   }
+   .ficnamep3{
+    margin-left: 360px;
+   }
