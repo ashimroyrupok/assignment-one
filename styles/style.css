@@ -2,6 +2,44 @@
     margin: 0px;
     padding: 0px;
 }
+
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(241, 198, 208);
+    width: 1390px;;
+
+
+
+}
+.menu{
+    display: flex;
+    
+    
+}
+
+.logo{
+    margin-left: 40px;
+
+}
+.menu-item{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+.menu-li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-li:hover{
+    color: #E55473;
+    
+}
+
+
 .header{
   font-family: 'Roboto Mono', monospace; ;
     
