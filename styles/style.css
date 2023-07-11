@@ -69,10 +69,12 @@
 .featured-container{
     margin-top: 70px;
     height: 100vh;
+
     
 }
 
 .featured{
+    height: 20px;
     text-align: center;
 }
    .fhead{
@@ -87,14 +89,20 @@
    .fic{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 50px;
     height: 400px;
+    width: 1100px;
+    background-color: white;
+    margin-left: 150px;
+    
+    
 
 
    }
    .fic1{
-    height: 350px;
-    width: 300px;
+    height: 250px;
+    width: 190px;
     background-color: #F2DEE7;
     padding: 80px;
     align-items: center;
@@ -104,8 +112,8 @@
     
    }
    .fic2{
-    height: 350px;
-    width: 300px;
+    height: 250px;
+    width: 190px;
     background-color:#D9EFF1;
     padding: 80px;
     align-items: center;
@@ -114,8 +122,8 @@
     
    }
    .fic3{
-    height: 350px;
-    width: 300px;
+    height: 250px;
+    width: 190px;
     background-color:#E3EBDB;
     padding: 80px;
     align-items: center;
@@ -124,23 +132,48 @@
     
     
    }
+   .fic1image{
+    position: relative;
+    bottom: -65px;
+    left: 10px;
+   }
+   .fic2image{
+    position: relative;
+    bottom: -85px;
+    left: 30px;
+   }
    .fic3image{
     position: relative;
-    bottom: 40px;
+    bottom: -45px;
     left: 30px;
   
    }
    .ficname{
     display: flex;
     margin-left: 90px;
-    margin-top: 130px;
+    margin-top: 20px;
    }
    .ficnamep1{
-    margin-left: 90px;
+    margin-left: 200px;
    }
    .ficnamep2{
-    margin-left: 360px;
+    margin-left: 260px;
    }
    .ficnamep3{
-    margin-left: 360px;
+    margin-left: 260px;
+   }
+   /* this icon section */
+   .icon{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width:1100px ;
+    background-color: #F4F4F4;
+    margin-left: 150px;
+
+   }
+   .iconi{
+    margin-left: 70px;
    }
