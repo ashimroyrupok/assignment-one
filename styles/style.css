@@ -177,3 +177,19 @@
    .iconi{
     margin-left: 70px;
    }
+   /* another section */
+.another-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEF6F8;
+    height: 400px;
+}
+.ash{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.off{
+    color: #E55473;
+}
+    
